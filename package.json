@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "init": "ts-node src/commands/init",
+    "new-cert": "ts-node src/commands/new_cert"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0"
+  }
+}
